@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <title>Technical Documentation Page</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main id="main-doc">
+            <nav id="navbar">
+                <header><h2 id="toc-header">Table of Contents</h2></header>
+                <ul>
+                    <li><a class="nav-link" href="#HTML">HTML</a></li>
+                    <li><a class="nav-link" href="#html_attributes">HTML Attributes</a></li>
+                    <li><a class="nav-link" href="#CSS">CSS</a></li>
+                    <li><a class="nav-link" href="#css_selectors">CSS Selectors</a></li>
+                    <li><a class="nav-link" href="#conclusion">Conclusion</a></li>
+                    <li><a class="nav-link" href="#references">References</a></li>
+                </ul>
+            </nav>
+            <section id="Introduction">
+                <header><h2>This is a simple technical documentation page on HTML and CSS.</h2></header>
+                <p>HTML and CSS are two of the core technologies for building web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web Applications.</p>
+            </section>
+
+            <section class="main-section html" id="HTML">
+                <header><h2>HTML</h2></header>
+                <p>HTML is the standard markup language for creating Web pages.</p>
+                <p>HTML stands for Hyper Text Markup Language</p>
+                <p>HTML describes the structure of Web pages using markup</p>
+                <p>HTML elements are the building blocks of HTML pages</p>
+                <p>HTML elements are represented by tags</p>
+                <p>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on</p>
+                <code>&lt;header&gt;</code><br>
+                <code>&lt;p&gt;</code><br>
+                <code>&lt;table&gt;</code><br>
+                <code>&lt;section&gt;</code><br>
+                <code>&lt;a&gt;</code>
+            </section>
+            
+            <section class="main-section html" id="html_attributes">
+                <header><h2>HTML Attributes</h2></header>
+                <p>All HTML elements can have attributes</p>
+                <p>Attributes provide additional information about elements</p>
+                <p>Attributes are always specified in the start tag</p>
+                <p>Attributes usually come in name/value pairs like: name="value"</p>
+                <code>&lt;...alt=""&gt;</code><br>
+                <code>&lt;... href=""&gt;</code><br>
+                <code> &lt;... for=""&gt;</code><br>
+                <code> &lt;... rel=""&gt;</code><br>
+                <code> &lt;... src=""&gt;</code>
+            </section>
+            <section class="main-section css" id="CSS">
+                <header><h2>CSS</h2></header>
+                <p>CSS is the language we use to style an HTML document.</p>
+                <p>CSS stands for Cascading Style Sheets</p>
+                <p>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</p>
+                <p>CSS saves a lot of work. It can control the layout of multiple web pages all at once</p>
+                <p>External stylesheets are stored in CSS files</p>
+                <code>&lt;style&gt;(selector)&lt;/style&gt;</code><br>
+                <code>body {}</code><br>
+                <code>h1{}</code><br>
+                <code>table{}</code><br>
+                <code>li{}</code>
+            </section>
+            <section class="main-section css" id="css_selectors">
+                <header><h2>CSS Selectors</h2></header>
+                <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+                <p>We can divide CSS selectors into five categories:</p>
+                <ul>
+                    <li>Simple selectors (select elements based on name, id, class)</li>
+                    <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+                    <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                    <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                    <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+                </ul>
+                <code>*{}</code><br>
+                <code>h1, h2 {}</code><br>
+                <code> ul > li{}</code><br>
+                <code>.nav > li {}</code><br>
+                <code>#id > a{}</code>
+            </section>
+            <section class="main-section" id="conclusion">
+                <header><h2>Conclusion</h2></header>
+                <p>HTML and CSS are the core technologies for building web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web Applications.</p>
+            </section>
+
+
+            <section class="main-section" id="references">
+                <header><h2>References</h2></header>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial</a></li>
+                    <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorial</a></li>
+                </ul>
+            </section>
+        </main>
+    </body>
+    </html>
